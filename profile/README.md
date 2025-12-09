@@ -19,7 +19,8 @@ React와 Spring Boot를 활용한 풀스택 도서 관리 웹 애플리케이션
 ---
 
 ## 📸 화면
-
+### 시연 영상
+https://youtu.be/Hh6bf2OK9Ec
 <table>
 <tr>
 <td width="50%">
@@ -163,26 +164,6 @@ npm run dev
 
 > 📌 상세한 API 명세는 백엔드 README를 참고하세요.
 
----
-
-## 🔧 환경 설정
-
-### 프론트엔드
-백엔드 서버 주소는 `frontend/src/services/api.js`에서 설정합니다:
-```javascript
-baseURL: "http://localhost:8080"
-```
-
-### 백엔드
-CORS 설정은 `COVERGEN-BACKEND/src/main/java/.../config/WebConfig.java`에서 관리됩니다.
-프론트엔드 포트(`http://localhost:5173`)가 기본적으로 허용되어 있습니다.
-
-### OpenAI API
-표지 생성 기능을 사용하려면 OpenAI API Key가 필요합니다.
-- 개발 환경: 프론트엔드에서 사용자가 직접 입력
-- 프로덕션 권장: 백엔드에서 API Key 관리
-
----
 
 ## 📂 주요 디렉토리 설명
 
